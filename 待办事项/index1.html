@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input id="ipt" type="text" value="">
+    <button onclick="add()">按钮</button>
+    <div id="text">
+
+    </div>
+
+
+
+
+
+
+<script>
+     var ipt = document.querySelector("#ipt");
+     var btn = document.querySelector("#btn");
+     var txt = document.querySelector("#text");
+     function add(){
+         //点击按钮的时候，执行函数add()
+         //设置本地缓存键值为2的值是，input的value值
+         localStorage.setItem(2,ipt.value)
+     }
+        txt.innerHTML = localStorage.getItem(2); //让 id为txt内，设置为本地缓存键值为2的内容
+</script>
+</body>
+</html>
