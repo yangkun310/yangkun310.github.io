@@ -54,7 +54,7 @@ body {
 }
 .s1 .header img:nth-of-type(3){
     width: 50px;
-    bottom:180px;
+    bottom:190px;
     left: 25px;
 }
 .s1 .header img:nth-of-type(4){
@@ -73,4 +73,37 @@ body {
     position: absolute;
     top: 30%;
 }
+.s1 .main img:nth-of-type(1){
+    width: 40%;
+}
+.s1 .main img:nth-of-type(2){
+    width: 80%;
+}
+.s1 .main .img9{
+    background:url("../img/9.png");
+    width: 210px;
+    background-size:100%;
+    margin-left: 22%;
+    font-family: 微软雅黑;
+}
 
+.s1 .footer{
+    position: absolute;
+    bottom:15%;
+    left: 20%;
+    color:#00efc1;
+}
+
+.s1 .footer p{
+    line-height: 20px;
+}
+.s1 .footer img:nth-of-type(1){
+    position: absolute;
+    bottom: -112px;
+    left:-329px;
+}
+.s1 .footer img:nth-of-type(2){
+    position: absolute;
+    bottom: -115px;
+    left:-160px;
+}
