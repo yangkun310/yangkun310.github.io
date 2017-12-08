@@ -42,7 +42,9 @@ body {
 /*                  header                */
 
 
-.s1,.s2{
+.s1,
+.s2,
+.S3{
     background:url("../img/bj.png");
     position: relative;
     height: 100%;
@@ -55,29 +57,36 @@ body {
     width: 40px;
     top: 130px;
     left: 50px;
+    animation:rotateIn infinite;
 }
 .s1 .header img:nth-of-type(2){
     width: 70px;
     right:38px;
     top:90px;
+    animation:rotateIn infinite;
 }
 .s1 .header img:nth-of-type(3){
     width: 50px;
     bottom:190px;
     left: 25px;
+    animation:rotateIn infinite;
 }
 .s1 .header img:nth-of-type(4){
     width: 60px;
     bottom: 200px;
     right:50px;
+    animation:rotateIn infinite;
 }
 .s1 .header img:nth-of-type(5){
     width: 70%;
     top: 25%;
     left: 50%;
     margin-left: -35%;
+    animation:slideInUp infinite;
 }
-
+.music{
+    animation:rotateIn infinite;
+}
 
 /*                main               */
 
@@ -232,8 +241,47 @@ body {
 
 
 
+/*
+    第三屏样式
+  */
 
+.s3{
+    color: #02cdaf;
+}
 
+.s3 h2{
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+.s3 h2 small{
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-top:10px;
+}
+.s3 h2:before,
+.s3 h2::after{
+    content:"";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+.s3 h2::before{
+    background:url("../img/14.png");
+    background-size:contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s3 h2::after{
+    background:url("../img/13.png");
+    background-size:contain;
+    margin-left:66px;
+    margin-top:10px;
+    top: 0;
+}
 
 
 
