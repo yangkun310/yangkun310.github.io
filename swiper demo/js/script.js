@@ -18,3 +18,29 @@ var swiper = new Swiper('.swiper-container', {
         }
     }
 });
+
+
+//音频标签
+var mp3 = document.querySelector("#mp3");
+
+//音乐按钮
+var mBtn = document.querySelector("#mBtn");
+
+//暂停音乐按钮
+//mp3Btn.style.animationPlayState = 'paused'
+//旋转音乐按钮
+//mp3Btn.style.animationPlayState = 'running'
+
+mBtn.onclick = function () {
+    if (mp3.paused) {
+        //开始旋转
+        mBtn.style.animationPlayState = 'running';
+        //开始音频
+        mp3.play();
+    } else {
+        //暂停旋转
+        mBtn.style.animationPlayState = 'paused';
+        //暂停音频
+        mp3.pause();
+    }
+}
