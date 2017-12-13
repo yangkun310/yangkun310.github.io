@@ -466,7 +466,7 @@ audio{
 .s4 h2{
     font-size: 26px;
     position: relative;
-    top: 12%;
+    top: 10%;
 }
 .s4 h2 small{
     display: block;
@@ -497,20 +497,154 @@ audio{
     top: 0;
 }
 
+.s4 .one{
+    position: absolute;
+    top:23%;
+}
+.s4 .one img{
+    width: 90%;
+
+}
+.s4 .one h3{
+    position: absolute;
+    width:70%;
+}
+.s4 .one h3 img{
+    width: 30px;
+    height: 30px;
+
+}
+.s4 .one h3:nth-of-type(1){
+    top:5%;
+    left:5%;
+}
+.s4 .one h3:nth-of-type(2){
+    top:5%;
+    right:-5%;
+}
+.s4 .one h3:nth-of-type(1) img{
+    position: absolute;
+    top: 0%;
+    left:24%;
+}
+.s4 .one h3:nth-of-type(2) img{
+    position:absolute;
+    top: 0%;
+    left:24%;
+}
 
 
 
+.s4 .two{
+    position: absolute;
+    top:33%;
+}
+.s4 .two .first h3:nth-of-type(1){
+    position: absolute;
+    left: 15%;
+
+}
+.s4 .two .first h3:nth-of-type(1) img{
+    width: 18px;
+    left:15%;
+}
+
+.s4 .two .first h3:nth-of-type(2) img{
+    width: 60%;
+    position: absolute;
+    left: 15%;
+    top:10%;
+}
+.s4 .two .first h3:nth-of-type(2) span{
+    position: absolute;
+    top: 6%;
+    left: 76%;
+}
+
+.s4 .two .first h3:nth-of-type(3) img{
+    width:25%;
+    position: absolute;
+    left: 15%;
+    top:20%;
+}
+.s4 .two .first h3:nth-of-type(3) span{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
 
 
 
+/*.s4 .two .second h3:nth-of-type(1){*/
+    /*position: absolute;*/
+    /*left: 15%;*/
+
+/*}*/
+/*.s4 .two .second h3:nth-of-type(1) img{*/
+    /*width: 18px;*/
+    /*left:15%;*/
+/*}*/
+
+/*.s4 .two .second h3:nth-of-type(2) img{*/
+    /*width: 60%;*/
+    /*position: absolute;*/
+    /*left: 15%;*/
+    /*top:24%;*/
+/*}*/
+/*.s4 .two .second h3:nth-of-type(2) span{*/
+    /*position: absolute;*/
+    /*top:30%;*/
+    /*left: 76%;*/
+/*}*/
+
+/*.s4 .two .second h3:nth-of-type(3) img{*/
+    /*width:25%;*/
+    /*position: absolute;*/
+    /*left:36%;*/
+    /*top:36%;*/
+/*}*/
+
+/*.s4 .two .second h3:nth-of-type(3) span{*/
+    /*position: absolute;*/
+    /*top: 10%;*/
+    /*left: 50%;*/
+/*}*/
 
 
 
+/*.s4 .two .third h3:nth-of-type(1){*/
+    /*position: absolute;*/
+    /*left: 15%;*/
 
+/*}*/
+/*.s4 .two .third h3:nth-of-type(1) img{*/
+    /*width: 18px;*/
+    /*left:15%;*/
+/*}*/
 
+/*.s4 .two .third h3:nth-of-type(2) img{*/
+    /*width: 60%;*/
+    /*position: absolute;*/
+    /*left: 15%;*/
+    /*bottom: 24%;*/
+/*}*/
+/*.s4 .two .third h3:nth-of-type(2) span{*/
+    /*position: absolute;*/
+    /*bottom:18%;*/
+    /*left: 76%;*/
+/*}*/
 
-
-
+/*.s4 .two .third h3:nth-of-type(3) img{*/
+    /*width:25%;*/
+    /*position: absolute;*/
+    /*left: 15%;*/
+    /*bottom:12%;*/
+/*}*/
+/*.s4 .two .third h3:nth-of-type(3) span{*/
+    /*position: absolute;*/
+    /*bottom:6%;*/
+    /*left: 50%;*/
+/*}*/
 
 
 
