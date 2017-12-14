@@ -445,20 +445,6 @@ audio{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*   第四屏样式  */
 .s4{
     color: #02cdaf;
@@ -661,120 +647,58 @@ audio{
 
 
 
-.s5 .tt{
+.s5 .tit{
     position: absolute;
     font-size: 18px;
+    width:80%;
+    height: 70%;
+    top: 25%;
+    left: 50%;
+    margin-left: -40%;
 }
-.s5 .t1-1 img{
+.s5 .tit div{
     position: absolute;
-    width:160px;
-    height:180px;
-    top: 55%;
-    left:17%;
+    width: 48%;
+    height: 42%;
+    margin-left: 0;
 }
-
-.s5 .t1-1 div img{
-    width: 155px;
-    height: 150px;
-}
-
-.s5 .t1 .t1-1 div p:nth-of-type(1){
-    top: 150%;
-    left: 34%;
-    position: absolute;
-    width:115px;
-}
-.s5 .t1 .t1-1 div p:nth-of-type(2){
-    position: absolute;
-    top: 170%;
-    left: 49%;
-    width: 75px
-}
-
-
-
-.s5 .t2-2 img{
-    position: absolute;
-    width:160px;
-    height:180px;
-    top:55%;
-    left:163%;
-}
-.s5 .t2-2 div img{
-    width: 155px;
-    height: 150px;
-}
-
-
-.s5 .t2 .t2-2 div p:nth-of-type(1){
-    position: absolute;
-    width:115px;
+.s5 .tit div:nth-of-type(1){
     top: 0%;
     left: 0%;
 }
-.s5 .t2 .t2-2 div p:nth-of-type(2){
-    position: absolute;
-    top:0%;
-    left: 0%;
-    width: 75px
-}
-
-
-.s5 .t3-3 img{
-    position: absolute;
-    width: 160px;
-    height: 180px;
-    top: 185%;
-    left:17%;
-}
-.s5 .t3-3 div img{
-    width: 155px;
-    height: 150px;
-}
-
-.s5 .t3 .t3-3 div p:nth-of-type(1){
-    position: absolute;
-    width:115px;
+.s5 .tit div:nth-of-type(2){
     top: 0%;
+    right:0%;
+}
+.s5 .tit div:nth-of-type(3){
+    bottom:11%;
     left: 0%;
 }
-.s5 .t3 .t3-3 div p:nth-of-type(2){
+.s5 .tit div:nth-of-type(4){
+    bottom: 11%;
+    right: 0%;
+}
+
+.s5 .tit div img:nth-of-type(1){
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top:0%;
-    left: 0%;
-    width: 75px
 }
-
-
-.s5 .t4-4 img{
+.s5 .tit div img:nth-of-type(2){
+    width: 98%;
+}
+.s5 .tit div p:nth-of-type(2){
     position: absolute;
-    width:160px;
-    height:180px;
-    top: 185%;
-    left: 163%;
+    left: 10%;
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d); /*Opera11*/
+    width: 80%;
+    height: 25px;
+    border-radius: 10px;
+    color: #000000;
 }
-.s5 .t4-4 div img{
-    width: 155px;
-    height: 150px;
-}
-
-
-.s5 .t4 .t4-4 div p:nth-of-type(1){
-    position: absolute;
-    width:115px;
-    top: 0%;
-    left: 0%;
-}
-.s5 .t4 .t4-4 div p:nth-of-type(2){
-    position: absolute;
-    top:0%;
-    left: 0%;
-    width: 75px
-}
-
-
-
-
 
 
 
@@ -820,6 +744,9 @@ audio{
     margin-top:10px;
     top: 0;
 }
+
+
+
 
 
 
