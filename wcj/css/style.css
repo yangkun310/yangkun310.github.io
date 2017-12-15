@@ -745,8 +745,57 @@ audio{
     top: 0;
 }
 
+.s6 .time{
+    position: absolute;
+    width: 90%;
+    height: 60%;
+    border-left:3px dotted #0df1ac;
+    top: 25%;
+    left: 10%;
+}
 
+.s6 .time .txt{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.s6 .time img{
+    position: absolute;
+    width: 15%;
+    height: 13%;
+}
+.s6 .time img:nth-of-type(1){
+    top:5%;
+    left: -8%;
+}
+.s6 .time img:nth-of-type(2){
+    top:40%;
+    left: -8%;
+}
+.s6 .time img:nth-of-type(3){
+    top: 74%;
+    left: -8%;
+}
 
+.s6 .time .txt span{
+    background:url("../img/15.png");
+    background-size:cover;
+    text-align: left;
+    width:80%;
+    display:block;
+}
+
+.s6 .time .txt div{
+    margin-top:4%;
+    width:90%;
+    background:url("../img/16.png");
+    background-size:cover;
+    text-align: left;
+}
+.s6 .time .txt div p{
+    font-size: 16px;
+    line-height:24px;
+
+}
 
 
 
@@ -787,4 +836,32 @@ audio{
     margin-left:66px;
     margin-top:10px;
     top: 0;
+}
+
+.s7 .tit{
+    width: 90%;
+    height: 60%;
+}
+.s7 .tit img{
+    position: absolute;
+    width: 90%;
+    height:60%;
+    top: 25%;
+    left: 5%;
+}
+.s7 .tit form{
+    padding-top:38%;
+}
+.s7 .tit form input{
+    width:90%;
+    padding: 5% 0;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left:10%;
+}
+.s7 .tit form input:nth-of-type(4){
+    text-align: center;
+    line-height: 28px;
+    background-color:#cfc67c;
+
 }
