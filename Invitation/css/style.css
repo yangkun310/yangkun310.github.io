@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+
+.swiper-button-next{
+    left:50%;
+    right:auto;
+    top:auto;
+    bottom:3%;
+    margin-left: -13.5px;
+    transform:rotateZ(-90deg);
+    animation:buttonimg 2s infinite;
+}
+@keyframes buttonimg {
+    0%{
+        bottom:3%;
+        opacity: 1;
+    }
+    100%{
+        bottom: 10%;
+        opacity: 0;
+    }
+
+}
+
+
+/*       音频           */
+audio{
+    width: 300px;
+    height: 32px;
+}
+
+#mBtn{
+    position: absolute;
+    top:4%;
+    right: 3%;
+    z-index:100;
+    width: 30px;
+    height:30px;
+    background:rgba(0,0,0,0.5);
+    border-radius: 50%;
+    border:4px solid #201818;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+    transform: rotateZ(0deg);
+    animation: mp3key 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+
+}
+#mBtn img{
+    width: 10px;
+}
+
+@keyframes mp3key {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+
+
+.s1{
+    background:url("../img/bg.jpg");
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    color: #cfd5b4;
+}
+.s2,
+.s3,
+.s4,
+.s5,
+.s6{
+    background:url("../img/2bg.jpg");
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    color: #cfd5b4;
+}
+
+
+/*      第一屏     */
+
+.s1 h1{
+    font-size: 24px;
+    color: #cfd5b4;
+    padding-top:20%;
+}
+.s1 img:nth-of-type(1){
+    position: absolute;
+    width: 80%;
+    padding-top: 15%;
+    left:10%;
+    top: 20%;
+}
+.s1 img:nth-of-type(2){
+    position: absolute;
+    width: 80%;
+    top:20%;
+    left: 10%;
+}
+.s1 img:nth-of-type(3){
+    width:50%;
+    padding-top: 35%;
+}
+.s1 h5{
+    font-size:16px;
+    color: white;
+    padding-top:35%;
+}
+.s1 p:nth-of-type(1){
+    padding-top:6%;
+}
+.s1 p{
+    color: #ffffff;
+    font-size: 14px;
+    padding-top:2%;
+}
+
+
+
+
+
+/*   第二屏   */
+.s2 h2{
+    position: relative;
+    padding-top: 20%;
+    font-size: 30px;
+}
+
+.s2 h2 small{
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-top:10px;
+}
+.s2 h2:before,
+.s2 h2::after{
+    content:"";
+    width: 10px;
+    height:18px;
+    display: inline-block;
+    position: absolute;
+}
+.s2 h2::before{
+    background:url("../img/zuo.png");
+    background-size:contain;
+    margin-left: -22px;
+    margin-top: 14px;
+}
+
+.s2 h2::after{
+    background:url("../img/you.png");
+    background-size:contain;
+    margin-left:68px;
+    margin-top:89px;
+    top: 0;
+}
+
+.s2 p{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.s2 p:nth-of-type(1){
+    text-align: left;
+    padding-top: 5%;
+    color: #ec763c;
+}
+.s2 p:nth-of-type(2){
+    text-align: left;
+    padding-top: 5%;
+}
+.s2 p:nth-of-type(3){
+    text-align: left;
+    padding-top: 5%;
+}
+
+.s2 p:nth-of-type(4){
+    text-align: right;
+    padding-top:25%;
+    color: #8edd6b;
+}
+.s2 p:nth-of-type(5){
+    text-align: right;
+    padding-top:3%;
+    color: #8edd6b;
+}
+.s2 p:nth-of-type(6){
+    text-align: right;
+    padding-top:3%;
+    color: #8edd6b;
+}
+
+
+.s2 .footer{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: -18%;
+}
+.s2 .footer img{
+    width: 100%;
+}
+
+
+
+
+/*第三屏*/
+
+.s3 h2{
+    position: relative;
+    padding-top: 20%;
+    font-size: 30px;
+}
+
+.s3 h2 small{
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-top:10px;
+}
+.s3 h2:before,
+.s3 h2::after{
+    content:"";
+    width: 10px;
+    height:18px;
+    display: inline-block;
+    position: absolute;
+}
+.s3 h2::before{
+    background:url("../img/zuo.png");
+    background-size:contain;
+    margin-left: -22px;
+    margin-top: 14px;
+}
+
+.s3 h2::after{
+    background:url("../img/you.png");
+    background-size:contain;
+    margin-left:68px;
+    margin-top:89px;
+    top: 0;
+}
+
+.s3 .main img{
+    width: 90%;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+.s3 .main{
+    width: 90%;
+    height: 80%;
+    margin-left:5%;
+}
+.s3 .main p{
+    line-height: 24px;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 5%;
+    color: aliceblue;
+}
+
+.s3 .footer{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: -18%;
+}
+.s3 .footer img{
+    width: 100%;
+}
+
+/*第四屏*/
+
+
+.s4 h2{
+    position: relative;
+    padding-top: 20%;
+    font-size: 30px;
+}
+
+.s4 h2 small{
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-top:10px;
+}
+.s4 h2:before,
+.s4 h2::after{
+    content:"";
+    width: 10px;
+    height:18px;
+    display: inline-block;
+    position: absolute;
+}
+.s4 h2::before{
+    background:url("../img/zuo.png");
+    background-size:contain;
+    margin-left: -22px;
+    margin-top: 14px;
+}
+
+.s4 h2::after{
+    background:url("../img/you.png");
+    background-size:contain;
+    margin-left:68px;
+    margin-top:89px;
+    top: 0;
+}
+
+.s4 .img img{
+    width:180px;
+    height: 120px;
+    margin-top: 40px;
+}
+.s4 .footer{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: -18%;
+}
+.s4 .footer img{
+    width: 100%;
+}
+
+
+
+
+
+/*第五屏*/
+
+.s5 h2{
+    position: relative;
+    padding-top: 20%;
+    font-size: 30px;
+}
+
+.s5 h2 small{
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-top:10px;
+}
+.s5 h2:before,
+.s5 h2::after{
+    content:"";
+    width: 10px;
+    height:18px;
+    display: inline-block;
+    position: absolute;
+}
+.s5 h2::before{
+    background:url("../img/zuo.png");
+    background-size:contain;
+    margin-left: -22px;
+    margin-top: 14px;
+}
+
+.s5 h2::after{
+    background:url("../img/you.png");
+    background-size:contain;
+    margin-left:68px;
+    margin-top:89px;
+    top:0;
+}
+
+.s5 .time{
+    width: 90%;
+    height: 60%;
+    position: absolute;
+    text-align: left;
+    border-left: 2px dotted #3ccd5b;
+    left:15%;
+}
+.s5 .time .text img{
+    position: absolute;
+    width:25px;
+    height:25px;
+}
+.s5 .time .text{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.s5 .time .text:nth-of-type(1) img{
+    top:6%;
+    left:-4%;
+}
+.s5 .time .text:nth-of-type(2) img{
+    top:26%;
+    left: -4%;
+}
+.s5 .time .text:nth-of-type(3) img{
+    top:46%;
+    left: -4%;
+}
+.s5 .time .text:nth-of-type(4) img{
+    top:66%;
+    left: -4%;
+}
+.s5 .time .text:nth-of-type(5) img{
+    top:86%;
+    left:-4%;
+}
+
+
+
+
+.s5 .time p{
+    margin-left:30%;
+}
+
+.s5 .footer{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: -18%;
+}
+.s5 .footer img{
+    width: 100%;
+}
+
+
+
+
+/*第六屏*/
+.s6 h2{
+    position: relative;
+    padding-top: 20%;
+    font-size: 30px;
+}
+
+.s6 h2 small{
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-top:10px;
+}
+.s6 h2:before,
+.s6 h2::after{
+    content:"";
+    width: 10px;
+    height:18px;
+    display: inline-block;
+    position: absolute;
+}
+.s6 h2::before{
+    background:url("../img/zuo.png");
+    background-size:contain;
+    margin-left: -22px;
+    margin-top: 14px;
+}
+
+.s6 h2::after{
+    background:url("../img/you.png");
+    background-size:contain;
+    margin-left:68px;
+    margin-top:89px;
+    top:0;
+}
+
+.s6 .tit{
+    width: 90%;
+    height: 60%;
+}
+.s6 .tit img{
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    top: 30%;
+    left: 5%;
+}
+.s6 .tit form{
+    padding-top:5%;
+}
+.s6 .tit form input{
+    width:90%;
+    padding: 5% 0;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left:10%;
+}
+.s6 .tit form input:nth-of-type(4){
+    text-align: center;
+    line-height: 28px;
+    background-color:#cfc67c;
+
+}
+
+
+
+.s6 .footer{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: -13%;
+}
+.s6 .footer img{
+    width: 100%;
+    height: 10%;
+}
+
+
+
+
