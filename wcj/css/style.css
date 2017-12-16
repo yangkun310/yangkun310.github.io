@@ -169,20 +169,30 @@ audio{
 /*                 footer            */
 
 
+.foot{
+    width: 100%;
+    position: absolute;
+    bottom: 8%;
+    
+}
+.foot p{
+    color:#00efc1;
+}
+.foot p:nth-of-type(2){
+    margin-bottom: 40px;
+}
+.foot p:nth-of-type(3){
+    height: 70px;
+}
+
+
+
+
 .footer {
     width: 100%;
     bottom: 0;
     position: absolute;
     z-index: 100;
-    height: 70px;
-}
-.footer p{
-    color:#00efc1;
-}
-.footer p:nth-of-type(2){
-    margin-bottom: 40px;
-}
-.footer p:nth-of-type(3){
     height: 70px;
 }
 .footer img{
@@ -287,7 +297,7 @@ audio{
     margin-bottom: 10px;
 }
 .s2 div p:nth-of-type(1){
-    padding-top: 20px;
+    padding-top:5%;
 }
 .s2 div span {
     /*渐变色*/
@@ -755,8 +765,9 @@ audio{
 }
 
 .s6 .time .txt{
-    padding-top: 10%;
+    padding-top: 12%;
     padding-left: 10%;
+
 }
 .s6 .time img{
     position: absolute;
@@ -782,6 +793,7 @@ audio{
     text-align: left;
     width:80%;
     display:block;
+    color: #000000;
 }
 
 .s6 .time .txt div{
@@ -790,6 +802,7 @@ audio{
     background:url("../img/16.png");
     background-size:cover;
     text-align: left;
+    color: #00eebf;
 }
 .s6 .time .txt div p{
     font-size: 16px;
